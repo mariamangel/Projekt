@@ -168,3 +168,31 @@ footer ul li p {
     border-radius: 20%;
     padding: 2%;
 }
+.bronnimg {
+    width: 50%;
+}
+
+input[type=text] {
+    border: none;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    outline:0;
+    height:25px;
+    width: 200px;
+    padding-left:10px;
+    padding-right:10px;
+}
+input[type=date] {
+    border: none;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    outline:0;
+    height:25px;
+    width: 200px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
