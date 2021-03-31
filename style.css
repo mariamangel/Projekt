@@ -101,7 +101,9 @@ main {
     left: 80%;
     transform: translate(-50%, -70%);
 }
-
+.varjatud {
+    display: none;
+}
 
 /*
 
@@ -247,10 +249,16 @@ input[type=submit]:hover{
     .two, .three {
         display: none;
     }
-    .tekstpildid {
-        display: block;
-    }
+
     .h1Main {
         text-align: center;
+    }
+    .varjatud {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-size: larger;
+        margin: 20px;
+        color: #857e64;
     }
 }
