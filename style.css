@@ -52,6 +52,7 @@ header a {
 main {
     background-color: #d1d1d1;
     padding: 2%;
+    height: 620px;
 }
 .h1Main{
     text-transform: uppercase;
@@ -201,12 +202,28 @@ footer ul li p {
 .bronnimg {
     flex-grow: 0;
     width: 60%;
+    height: 100%;
     -webkit-border-top-right-radius: 30px 30px;
     -webkit-border-bottom-right-radius: 30px 30px;
+    position: relative;
+    left: -10%
 }
 .bronnForm {
     flex-grow: 1;
+    padding-left: 40px;
+    position: relative;
+    left: -5%;
 }
+.bronnH1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 30%;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
 input[type=text] {
     border: none;
     -webkit-border-radius: 30px;
@@ -217,6 +234,7 @@ input[type=text] {
     width: 200px;
     padding-left:10px;
     padding-right:10px;
+    margin: 3% 0;
 }
 input[type=date] {
     border: none;
@@ -231,14 +249,19 @@ input[type=date] {
 }
 input[type=submit] {
     border: none;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
     font-size:  16px;
-    padding: 12px 28px;
+    padding: 24px 60px;
     background-color: #857e64;
     transition-duration: 0.4s;
     text-transform: uppercase;
+    margin: 8px 0;
+    position: relative;
+    left: -45%;
+    top: 40%;
+
 }
 input[type=submit]:hover{
     background-color: white;
@@ -261,4 +284,41 @@ input[type=submit]:hover{
         margin: 20px;
         color: #857e64;
     }
+    .flex {
+        display: block;
+        text-align: center;
+    }
+
+    .bronnimg {
+        display: inline-block;
+        border-radius: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        position: static;
+    }
+    .bronnForm {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+    .bronnH1 {
+        display: inline-block;
+        text-align: center;
+        position: static;
+        margin-right: 40%;
+    }
+    input[type=submit] {
+        position: static;
+        margin-left: 20%;
+        margin-right: auto;
+        margin-top: 20px;
+        padding: 12px 24px;
+    }
+    label {
+        font-size: 24px;
+    }
+
+
 }
