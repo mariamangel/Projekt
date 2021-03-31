@@ -1,0 +1,131 @@
+header{
+    width: 100%;
+    height: calc(60vh);
+    background-color: #cccccc;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.row div {
+    width: 50%;
+}
+.five {
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.six {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#pealkiri {
+    text-transform: uppercase;
+    font-size: x-large;
+}
+#pilt {
+    width: 100%;
+    border-radius: 20%;
+}
+/*
+main {
+    background-color: #cccccc;
+}
+main h1 {
+    padding-right: 100px;
+}
+
+.broneeri-img {
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+.container{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.four p {
+    font-size: large;
+    line-height: 1.4;
+}
+.container img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+    border-radius: 50%;
+}
+.container_2{
+    display: inline-block;
+    position: relative;
+    width: 80%;
+    height: 90%;
+    overflow: hidden;
+}
+.container img {
+    height: 100%;
+    position: absolute;
+    right: 30%;
+}
+.container_2 img {
+    height: 100%;
+    position: absolute;
+    left: 60%;
+}
+.tekstpildid {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: black;
+    text-transform: uppercase;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/
+footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    background-color: #b0a898;
+    margin-top: 20px;
+    overflow: hidden;
+}
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 0px;
+}
+
+footer ul li {
+    display: block;
+    padding: 0 0 20px 0;
+}
+
+footer ul li p {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #030303;
+    text-transform: uppercase;
+}
+.footer-icon {
+    width: 32px;
+    float: right;
+}
+.footer-icon img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
