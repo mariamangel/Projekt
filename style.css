@@ -3,6 +3,12 @@ header{
     height: calc(60vh);
     background-color: #9d967e;
 }
+header a {
+    text-align: right;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
 
 .row {
     display: flex;
@@ -11,6 +17,7 @@ header{
 
 .row div {
     width: 50%;
+    height: 60%;
 }
 .five {
     margin-right: 2%;
@@ -25,14 +32,18 @@ header{
     align-items: center;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
+    padding: 10% 10%;
 }
+
 #pealkiri {
     text-transform: uppercase;
-    font-size: x-large;
+    font-size: xx-large;
+    padding-bottom: 10%;
 }
 #pilt {
     width: 100%;
-    border-radius: 20%;
+    border-radius: 10% 10% 75% 36% / 0 0 98% 13%;
 }
 main {
     background-color: #d1d1d1;
@@ -43,6 +54,12 @@ main {
     padding-top: 2%;
     text-transform: uppercase;
     font-size: x-large;
+}
+.h1Main{
+    text-transform: uppercase;
+    padding-top: 2%;
+    padding-right: 2.5%;
+    font-size: xx-large;
 }
 .one {
     padding-left: 3%;
@@ -180,7 +197,6 @@ footer ul li p {
     flex-basis: 25%;
     max-width: 100%;
 
-
 }
 .bronnimg {
     flex-grow: 0;
@@ -229,6 +245,14 @@ input[type=submit]:hover{
     border: grey 4px;
 }
 
-@media only screen and (min-width: 950px) {
-
+@media only screen and (max-width: 950px) {
+    .two, .three {
+        display: none;
+    }
+    .tekstpildid {
+        display: block;
+    }
+    .h1Main {
+        text-align: center;
+    }
 }
