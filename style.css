@@ -143,3 +143,28 @@ footer ul li p {
     margin-bottom: 10px;
 }
 
+.h1port {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 2%;
+    font-size: xx-large;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: center;
+    -o-flex-flow: row wrap;
+    justify-content: center;
+}
+
+.flex img {
+    width: 300px;
+    border-radius: 20%;
+    padding: 2%;
+}
