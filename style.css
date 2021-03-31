@@ -1,7 +1,7 @@
 header{
     width: 100%;
     height: calc(60vh);
-    background-color: #cccccc;
+    background-color: #9d967e;
 }
 
 .row {
@@ -34,19 +34,25 @@ header{
     width: 100%;
     border-radius: 20%;
 }
-/*
+
 main {
     background-color: #cccccc;
 }
-main h1 {
-    padding-right: 100px;
+#pealkiriMain {
+    padding-left: 2.5%;
+    padding-top: 2%;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+.one {
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-right: 3%;
+    line-height: 1.4;
+    font-size: larger;
+
 }
 
-.broneeri-img {
-    margin: 10px;
-    position: relative;
-    text-align: center;
-}
 .container{
     display: inline-block;
     position: relative;
@@ -54,16 +60,37 @@ main h1 {
     height: 100%;
     border-radius: 50%;
 }
-.four p {
-    font-size: large;
-    line-height: 1.4;
-}
+
 .container img {
     width: auto;
     height: 100%;
     margin-left: -50px;
     border-radius: 50%;
 }
+
+.broneeri-img {
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+.tekstpildid {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: black;
+    text-transform: uppercase;
+
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -70%);
+}
+
+
+/*
+
 .container_2{
     display: inline-block;
     position: relative;
@@ -81,20 +108,7 @@ main h1 {
     position: absolute;
     left: 60%;
 }
-.tekstpildid {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 22px;
-    letter-spacing: 3px;
-    line-height: 24px;
-    color: black;
-    text-transform: uppercase;
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}*/
+*/
 footer {
     width: calc(100% - 80px);
     padding: 40px 40px;
