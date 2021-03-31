@@ -1,4 +1,4 @@
-/*header{
+header{
     width: 100%;
     height: calc(60vh);
     background-color: #9d967e;
@@ -34,7 +34,6 @@
     width: 100%;
     border-radius: 20%;
 }
-*/
 main {
     background-color: #d1d1d1;
     padding: 2%;
@@ -151,6 +150,24 @@ footer ul li p {
     text-align: center;
     padding-top: 2%;
     font-size: xx-large;
+}
+
+.flexPort {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: center;
+    -o-flex-flow: row wrap;
+    justify-content: center;
+}
+.flexPort img {
+    width: 300px;
+    border-radius: 20%;
+    padding: 2%;
 }
 
 .flex {
