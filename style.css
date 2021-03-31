@@ -165,9 +165,9 @@ footer ul li p {
     justify-content: center;
 }
 .flexPort img {
-    width: 300px;
+    width: 40%;
     border-radius: 20%;
-    padding: 2%;
+    padding: 4%;
 }
 
 .flex {
@@ -227,4 +227,8 @@ input[type=submit] {
 input[type=submit]:hover{
     background-color: white;
     border: grey 4px;
+}
+
+@media only screen and (min-width: 950px) {
+
 }
