@@ -1,3 +1,4 @@
+/*header*/
 header{
     width: 100%;
     height: calc(60vh);
@@ -45,15 +46,12 @@ header a {
     width: 100%;
     border-radius: 10% 10% 75% 36% / 0 0 98% 13%;
 }
+
+/*main*/
+
 main {
     background-color: #d1d1d1;
     padding: 2%;
-}
-#pealkiriMain {
-    padding-left: 2.5%;
-    padding-top: 2%;
-    text-transform: uppercase;
-    font-size: x-large;
 }
 .h1Main{
     text-transform: uppercase;
@@ -69,7 +67,6 @@ main {
     font-size: larger;
 
 }
-
 .container{
     display: inline-block;
     position: relative;
@@ -93,7 +90,7 @@ main {
 .tekstpildid {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 30px;
     letter-spacing: 3px;
     line-height: 24px;
     color: black;
@@ -126,6 +123,8 @@ main {
     left: 60%;
 }
 */
+
+/*footer*/
 footer {
     width: calc(100% - 80px);
     padding: 40px 40px;
@@ -158,10 +157,8 @@ footer ul li p {
     width: 100%;
     margin-bottom: 10px;
 }
-.bronnMain {
-    height: calc(70vh);
-}
 
+/*portfoolio.html*/
 .h1port {
     text-transform: uppercase;
     text-align: center;
@@ -187,6 +184,7 @@ footer ul li p {
     padding: 4%;
 }
 
+/*broneering.html*/
 .flex {
     display: flex;
     flex-flow: row wrap;
