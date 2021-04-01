@@ -322,6 +322,14 @@ input[type=submit]:hover{
     label {
         font-size: 24px;
     }
-
+    .bronnMain {
+    height: calc(110vh);
+    }
+    .portMain {
+        height: calc(80vh);
+    }
+    .main {
+        height: calc(180vh);
+    }
 
 }
