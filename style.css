@@ -1,7 +1,7 @@
 /*header*/
 header{
     width: 100%;
-    height: calc(60vh);
+    height: calc(100vh);
     background-color: #9d967e;
 }
 header a {
@@ -43,7 +43,7 @@ header a {
     padding-bottom: 10%;
 }
 #pilt {
-    width: 100%;
+    width: 200%;
     border-radius: 10% 10% 75% 36% / 0 0 98% 13%;
 }
 
@@ -52,7 +52,7 @@ header a {
 main {
     background-color: #d1d1d1;
     padding: 2%;
-    height: 620px;
+    height: 100%;
 }
 .h1Main{
     text-transform: uppercase;
