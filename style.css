@@ -132,7 +132,6 @@ footer {
     width: calc(100% - 80px);
     padding: 40px 40px;
     background-color: #a8a795;
-    margin-top: 20px;
     overflow: hidden;
 }
 footer ul {
